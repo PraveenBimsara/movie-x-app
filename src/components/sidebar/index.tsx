@@ -26,6 +26,11 @@ const navLinks = [
     icon: bookmarkIcon,
     link: "/bookmarks",
   },
+  {
+    name: "Sample",
+    icon: bookmarkIcon,
+    link: "/samples",
+  },
 ];
 
 const Sidebar = () => {
@@ -73,7 +78,7 @@ const Sidebar = () => {
             fontWeight={400}
             fontSize={18}
           >
-            PikaShowApp
+            Movie-X
           </Typography>
         </Hidden>
 
